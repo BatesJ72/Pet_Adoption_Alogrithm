@@ -1,0 +1,398 @@
+/* ============ TABLES ============ */
+td, th {
+    padding: 6px 20px;
+  }
+
+/* ============ Dropdown List Colors ============ */
+option {font-family: 'Raleway'}
+option.blank {background-color: whitesmoke; color: black}
+option.black {background-color: black; color: white}
+option.brown {background-color: chocolate; color: white}
+option.chocolate {background-color: brown; color: white}
+option.white {background-color: white; color: black}
+option.tricolor {background-color: rosybrown; color: black}
+option.tan {background-color: tan; color: black}
+option.yellow {background-color: palegoldenrod; color: black}
+option.buff {background-color: lightgoldenrodyellow; color: black}
+option.cream {background-color: lemonchiffon; color: black}
+option.gray {background-color: lightgray; color: black}
+option.blue {background-color: midnightblue; color: white}
+option.red {background-color: indianred; color: white}
+option.sable {background-color: firebrick; color: white}
+option.gold {background-color: gold; color: black}
+option.silver {background-color: silver; color: black}
+option.apricot {background-color: peachpuff; color: black}
+option.brindle {background-color: peru; color: white}
+option.tick {background-color: slategray; color: white}
+option.merle {background-color: steelblue; color: white}
+option.tiger {background-color: lightsteelblue; color: black}
+option.fawn {background-color: wheat; color: black}
+option.liver {background-color: maroon; color: white}
+option.piebald {background-color: linen; color: black}
+
+
+/*                      ========================== ALL PAGES ==========================           
+=========================================================================================================================*/
+
+
+body {
+    
+    font-family: 'Raleway';
+    /* height: 1640px; */
+    background-color: #444;
+
+   
+} 
+
+
+
+
+
+/* HEADER AND NAV
+================================================================ */
+.header {
+    background: rgba(85, 214, 170);
+    width: 100vw;
+    top: -15px; 
+    color: black;
+    position: fixed;
+    z-index: 1;
+
+}
+
+nav li {
+    color: black;
+    position: relative;
+    text-transform: uppercase;
+
+}
+ 
+nav a {
+    text-decoration: none;
+	color: black;
+	text-transform: uppercase, bold;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+nav a::before {
+content: '';
+ display: block;
+ height: 4px;
+ background-color: white;
+ position: absolute;
+ width: 0%;
+ top: 20px;
+
+ transition: all ease-in-out 300ms;
+
+}
+
+nav a:hover::before {
+	width: 100%;
+
+}
+
+ 
+/*                      ==========================INDEX PAGE==========================           
+=========================================================================================================================*/
+.above-parallax {
+    height: 80px;
+
+}
+
+.parallax {
+    min-height: 540px;
+    width: 100vw;
+    background: transparent;
+
+}
+
+.parallax-2 {
+
+    min-height: 600px;
+    width: 100vw;
+    background: transparent;
+
+}
+.parallax-3 {
+
+    min-height: 600px;
+    width: 100vw;
+    background: transparent;
+
+}
+
+/* INFO BOX 
+===================================================*/
+.box {
+    background: rgb(245, 212, 103); 	
+	width: 100vw; 
+	color:black;
+    
+}
+
+.info {
+    padding:20px;
+    margin-left: 40px;
+}
+
+
+.click a {
+    outline: solid white;
+    color: black;
+    padding: 10px;
+    size: 10px;
+   text-decoration: none;
+   margin-left: 130px;
+}
+
+.box p {
+    color: black;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin-bottom: 60px;
+}
+
+
+
+.box-2 {
+    background: rgb(200, 219, 215); 	
+	width: 100vw; 
+	color:white;
+    /* margin-bottom: 15%; */
+    /* margin-top: 400px; */
+}
+
+.info-2 h3 {
+    margin-left: 180px;
+}
+
+.input-2 p {
+    margin-left: 600px;
+}
+
+
+.info-2 {
+    padding:20px;
+    margin-left: 500px;
+}
+
+
+.box-3 {
+    background: rgb(200, 219, 215); 	
+	width: 100vw; 
+	color:black;
+    /* margin-bottom: 15%; */
+    /* margin-top: 400px; */
+}
+
+.info-3 h3 {
+    margin-left: 180px;
+}
+
+.input-3 p {
+    margin-left: 400px;
+}
+
+
+.info-3 {
+    padding:20px;
+    margin-left: 500px;
+}
+
+.click a {
+    outline: solid white;
+    color: black;
+    padding: 10px;
+    size: 10px;
+   text-decoration: none;
+   margin-left: 400px;
+}
+
+.box p {
+    color: black;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin-bottom: 60px;
+}
+
+
+
+
+
+/* FOOTER */
+
+
+
+.foot {
+    height: 100px;
+	
+    background-color: #f1f1f1;
+    font-size: 12px;
+	/* display: block;
+	overflow: hidden; */
+    padding: 10px;
+    /* position: fixed; */
+    width: 100vw;
+    z-index: 1;
+    
+    
+    
+
+	}
+
+.copyright {
+	float:left;
+	color: #444;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+/*                      ========================== GET STARTED ==========================           
+=========================================================================================================================*/
+
+                                /* ALL SUBMIT BUTTONS */
+
+input, button {     
+    background-color:transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: hand;
+    overflow: hidden;    
+    outline: solid white;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 130px;   
+}
+
+button a {
+    color: black;
+    text-decoration: none;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+                                /* WEIGHT BOX *******************************/
+
+
+.input-box {
+    background: lemonchiffon; 
+    /* width: 1370px; */
+    width: 100vw; 
+	padding: 60px;
+	margin-top: 80px;
+    
+	color:black;
+    /* margin-bottom: 15%; */
+    
+
+}
+
+
+                                /* TRAIT BOX *********************************/
+
+.characteristic-box {
+    background: lemonchiffon; 
+
+    /* width: 1370px; */
+    width: 100vw; 
+    padding-left: 60px;
+    padding-bottom: 60px;
+	margin-top: 0;
+    dislay: none;
+	color:black;
+  
+}
+
+
+                    /* TRAIT LIST */
+.characteristic-box ul {
+    padding: 0;
+    column-count: 4; 
+}
+
+
+li {
+    list-style: none;
+    display: block;
+    padding: 2px;
+    margin: none;
+    text-transform: capitalize;
+   
+}
+
+
+li label {
+    padding: 10px;
+    margin: none;
+} 
+
+.characteristics {
+    position: relative;
+}
+
+                    /* CHECKBOXES */
+.checkmark {
+    outline: none;
+   
+    background-color: rgba(85, 214, 170);
+    width:15px;
+    height: 15px;
+    transition: 0.4s;
+    
+}
+
+#check:checked ~ .checkmark {
+    background-color: rgba(85, 214, 170);
+}
+
+
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    background-color:  rgba(85, 214, 170);
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotateZ(40deg);
+    opacity: 0;
+
+}
+
+
+                                    /* BREED RESULT BOX ************************/ 
+
+.breed-results {
+    background: lemonchiffon; 
+    width: 100vw;  
+	padding: 60px;
+	color:black;
+}
+
+                                    /* DOG RESULT BOX ************************/ 
+
+.dog-results {
+    background: lemonchiffon; 
+    width: 100vw;  
+	padding: 60px;
+	color:black;
+}
